@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ConsumoAPIProduto</string>
 
+
+    <string-array name="sistemas_os">
+        <item>Windows 10</item>
+        <item>Linux</item>
+        <item>Android</item>
+        <item>IOs</item>
+    </string-array>
+
 </resources>

@@ -12,10 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConsumoAPIProduto"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SpinnerActivity">
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="Spinner">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
