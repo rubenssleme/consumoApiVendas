@@ -19,8 +19,11 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="196dp"
-                android:src="@mipmap/ic_launcher_background_foreground" />
+                android:layout_height="216dp"
+                android:background="#FFFFFF"
+                android:contentDescription="TODO"
+                android:src="@mipmap/ic_logo_banco_inter_foreground"
+                />
 
             <EditText
                 android:id="@+id/editTextUsuario"
