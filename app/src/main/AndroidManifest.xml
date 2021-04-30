@@ -12,11 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConsumoAPIProduto"
         android:usesCleartextTraffic="true">
+        <activity android:name=".SplashActivity" android:label="Tela Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".SpinnerActivity"
-            android:label="Spinner">
-
-        </activity>
+            android:label="Spinner"></activity>
         <activity
             android:name=".ConsultaActivity"
             android:label="Consultar Produto" />
@@ -26,10 +30,7 @@
         <activity
             android:name=".LoginActivity"
             android:label="Tela Login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
     </application>
 
